@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" >
+    <parameter name="seller" value="workrocksqa@gmail.com" />
+    <parameter name="password" value="test555" />
+    <test name="testing">
+        <parameter name="seller" value="workrocksqa@gmail.com" />
+        <parameter name="password" value="test555" />
+        <classes>
+            <class name="Suite2_Login">
+            </class>
+        </classes>
+    </test>
+</suite>
